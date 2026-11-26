@@ -1,0 +1,424 @@
+{
+  "meta": {
+    "window": ["2021-11-01", "2021-12-15"],
+    "hydat_version": "2026-10-19",
+    "note": "Daily means. Instantaneous peaks were higher than these daily values. Sumas River flow is missing in HYDAT on some peak days; Sumas River level is complete. Flag E means estimated (Water Survey of Canada).",
+    "sources": [
+      {
+        "name": "Water Survey of Canada, HYDAT, station 08MH029 (Sumas River near Huntingdon)",
+        "licence": "Open Government Licence - Canada"
+      },
+      {
+        "name": "U.S. Geological Survey, station 12210700 (Nooksack River at North Cedarville, WA)",
+        "licence": "Public domain"
+      }
+    ]
+  },
+  "days": [
+    {
+      "date": "2021-11-01",
+      "sumas_level_m": 1.96,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 4,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 110.2,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-02",
+      "sumas_level_m": 1.8,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 3.2,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 105.1,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-03",
+      "sumas_level_m": 1.94,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 3.9,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 133.7,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-04",
+      "sumas_level_m": 2.33,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 6.1,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 232.2,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-05",
+      "sumas_level_m": 2.6,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 8.7,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 276.1,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-06",
+      "sumas_level_m": 2.55,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 7.8,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 178.1,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-07",
+      "sumas_level_m": 2.41,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 6.6,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 147.2,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-08",
+      "sumas_level_m": 2.24,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 5.6,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 128.8,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-09",
+      "sumas_level_m": 2.08,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 4.7,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 116.7,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-10",
+      "sumas_level_m": 1.97,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 4.1,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 115,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-11",
+      "sumas_level_m": 1.9,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 3.7,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 107.9,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-12",
+      "sumas_level_m": 2.03,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 4.4,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 337,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-13",
+      "sumas_level_m": 2.33,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 6.1,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 261.6,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-14",
+      "sumas_level_m": 2.89,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 17.5,
+      "sumas_flow_flag": "E",
+      "nooksack_flow_m3s": 719.2,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-15",
+      "sumas_level_m": 4.04,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 44.4,
+      "sumas_flow_flag": "E",
+      "nooksack_flow_m3s": 1718.8,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-16",
+      "sumas_level_m": 4.11,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": null,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 623,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-17",
+      "sumas_level_m": 3.98,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": null,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 317.1,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-18",
+      "sumas_level_m": 3.86,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 22.6,
+      "sumas_flow_flag": "E",
+      "nooksack_flow_m3s": 239,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-19",
+      "sumas_level_m": 3.58,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 19,
+      "sumas_flow_flag": "E",
+      "nooksack_flow_m3s": 204.7,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-20",
+      "sumas_level_m": 3.18,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 11.3,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 172.7,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-21",
+      "sumas_level_m": 2.87,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 7.2,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 152.1,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-22",
+      "sumas_level_m": 2.64,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 6.2,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 137.3,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-23",
+      "sumas_level_m": 2.53,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 5.8,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 141.3,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-24",
+      "sumas_level_m": 2.52,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 5.7,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 130.3,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-25",
+      "sumas_level_m": 2.59,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 6.1,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 194.8,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-26",
+      "sumas_level_m": 3.44,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 16.7,
+      "sumas_flow_flag": "E",
+      "nooksack_flow_m3s": 314.3,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-27",
+      "sumas_level_m": 3.56,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 19.2,
+      "sumas_flow_flag": "E",
+      "nooksack_flow_m3s": 241.5,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-28",
+      "sumas_level_m": 3.81,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 22,
+      "sumas_flow_flag": "E",
+      "nooksack_flow_m3s": 699.4,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-29",
+      "sumas_level_m": 3.97,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": null,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 540.9,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-11-30",
+      "sumas_level_m": 3.98,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": null,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 399.3,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-12-01",
+      "sumas_level_m": 3.94,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": null,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 458.7,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-12-02",
+      "sumas_level_m": 3.88,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": null,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 342.6,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-12-03",
+      "sumas_level_m": 3.61,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 19.2,
+      "sumas_flow_flag": "E",
+      "nooksack_flow_m3s": 223.7,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-12-04",
+      "sumas_level_m": 3.25,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 12.5,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 180.9,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-12-05",
+      "sumas_level_m": 3.07,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 9.4,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 152.1,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-12-06",
+      "sumas_level_m": 2.88,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 7.2,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 135.9,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-12-07",
+      "sumas_level_m": 2.84,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 7,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 126,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-12-08",
+      "sumas_level_m": 2.81,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 6.9,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 132.5,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-12-09",
+      "sumas_level_m": 2.72,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 6.5,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 122.3,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-12-10",
+      "sumas_level_m": 2.59,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 6,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 110.2,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-12-11",
+      "sumas_level_m": 2.54,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 5.8,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 156,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-12-12",
+      "sumas_level_m": 2.67,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 6.3,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 144.4,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-12-13",
+      "sumas_level_m": 2.61,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 6.1,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 118.9,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-12-14",
+      "sumas_level_m": 2.46,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 5.5,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 104.5,
+      "nooksack_approval": "Approved"
+    },
+    {
+      "date": "2021-12-15",
+      "sumas_level_m": 2.33,
+      "sumas_level_flag": null,
+      "sumas_flow_m3s": 5,
+      "sumas_flow_flag": null,
+      "nooksack_flow_m3s": 93.7,
+      "nooksack_approval": "Approved"
+    }
+  ]
+}
