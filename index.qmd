@@ -7,13 +7,17 @@ description: "An illustrated data story following two rivers from source to sea:
 
 ::::: {.hero-full .column-screen}
 
+```{=html}
+<img class="hero-motif" src="images/motif.svg" alt="">
+```
+
 :::: {.hero-inner}
 
 [Portfolio project · in progress]{.eyebrow}
 
-# Source to Sea: [two rivers.]{.accent}
+# Source to Sea: [two]{.tr-fraser} [rivers.]{.tr-eden}
 
-One long, illustrated story following two rivers from the mountains to the sea: the Fraser in British Columbia and the Eden in Cumbria.
+One long, illustrated story following two rivers from the mountains to the sea: the [Fraser]{.tr-fraser} in British Columbia and the [Eden]{.tr-eden} in Cumbria.
 
 [About this project](about.qmd){.btn .btn-accent} [Code on GitHub](https://github.com/emmabranch/two-rivers){.btn .btn-ghost}
 
@@ -23,5 +27,5 @@ One long, illustrated story following two rivers from the mountains to the sea: 
 
 ## Coming soon
 
-- The Fraser comes first: floods, wildfire smoke, and sockeye salmon.
-- The Eden follows later.
+- The [Fraser]{.tr-fraser} comes first: floods, wildfire smoke, and sockeye salmon.
+- The [Eden]{.tr-eden} follows later.

@@ -6,13 +6,17 @@ project:
     - about.qmd
   resources:
     - .nojekyll
+    - images/motif.svg
 
 website:
   title: "Source to Sea: two rivers"
   site-url: https://emmabranch.github.io/two-rivers/
   repo-url: https://github.com/emmabranch/two-rivers
+  favicon: images/favicon.png
   navbar:
     title: "Source to Sea"
+    logo: images/motif.svg
+    logo-alt: ""
     left:
       - href: index.qmd
         text: Story
