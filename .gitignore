@@ -1,0 +1,11 @@
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+/.quarto/
+.DS_Store
+**/*.quarto_ipynb
+# Big downloads stay on your computer, not on GitHub
+data/raw/*
+!data/raw/.gitkeep

@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About this project",
+    "section": "",
+    "text": "This is an independent personal project. It is not affiliated with, commissioned by, or endorsed by any organisation whose data it uses. All interpretations and any errors are my own."
+  },
+  {
+    "objectID": "about.html#data-credits",
+    "href": "about.html#data-credits",
+    "title": "About this project",
+    "section": "Data credits",
+    "text": "Data credits\nEvery chart will credit its source and licence. Credits are added here as each chapter is built."
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "About this project",
+    "section": "About me",
+    "text": "About me\nI’m Emma Branch, an epidemiologist and data analyst in British Columbia, and a PhD candidate in Population and Public Health at the University of British Columbia. I’ve spent about 10 years working with health research data, including registry analytics, REDCap database design, data governance, and performance measurement. I mostly work in R, SAS, and SQL, and build reports and tools with Quarto, Shiny, leaflet, and Power BI. Lately I’ve been applying the same habits to environmental and ocean data, mostly because I like maps and fish."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Source to Sea: two rivers.",
+    "section": "",
+    "text": "Portfolio project · in progress\n\n\nOne long, illustrated story following two rivers from the mountains to the sea: the Fraser in British Columbia and the Eden in Cumbria.\nAbout this project Code on GitHub"
+  },
+  {
+    "objectID": "index.html#coming-soon",
+    "href": "index.html#coming-soon",
+    "title": "Source to Sea: two rivers.",
+    "section": "Coming soon",
+    "text": "Coming soon\n\nThe Fraser comes first: floods, wildfire smoke, and sockeye salmon.\nThe Eden follows later."
+  }
+]

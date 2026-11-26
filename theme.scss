@@ -1,0 +1,20 @@
+/* Source to Sea: two rivers: project colours */
+/* TEMPORARY accent (glacier teal) until we choose the motif and colour in Phase 1, step 9 */
+/*-- scss:defaults --*/
+
+/*-- scss:rules --*/
+:root {
+  --eb-accent: #17707f;
+  --eb-accent-2: #3fb0c2;
+  --eb-accent-light: #93dde8;
+  --eb-hero-glow: rgba(63, 176, 194, 0.30);
+}
+
+/* Pages without a hero: a little more space under the navbar */
+main.content:not(:has(.hero-full)) #title-block-header { margin-top: 1.5rem; }
+
+/* Home page: the hero carries the title, so the standard title block is hidden */
+body:has(.hero-full) #title-block-header { display: none; }
+
+/* Clear space between the hero (and its shadow) and the first section below it */
+.hero-full + section.level2 { margin-top: 3rem; }

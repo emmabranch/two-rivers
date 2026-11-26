@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+    - about.qmd
+  resources:
+    - .nojekyll
+
+website:
+  title: "Source to Sea: two rivers"
+  site-url: https://emmabranch.github.io/two-rivers/
+  repo-url: https://github.com/emmabranch/two-rivers
+  navbar:
+    title: "Source to Sea"
+    left:
+      - href: index.qmd
+        text: Story
+      - href: about.qmd
+        text: About
+    right:
+      - icon: github
+        href: https://github.com/emmabranch/two-rivers
+        aria-label: Code on GitHub
+
+format:
+  html:
+    theme: [flatly, brand, brand.scss, theme.scss]
+    include-after-body: footer.html
+    toc: false
+
+execute:
+  echo: false
+  warning: false
+  message: false
