@@ -31,6 +31,8 @@ button:focus-visible,a:focus-visible{outline:3px solid #2340FF;outline-offset:3p
 .datum{font-family:"Space Mono",monospace;font-size:.85rem;border-top:2px solid var(--ink);padding-top:8px;margin-top:8px}
 .credit{font-family:"Space Mono",monospace;font-size:.7rem;color:#5A544A}
 .health{border-left:6px solid var(--fr2);padding-left:10px}
+.climate{border-left:6px solid #2340FF;padding-left:10px}
+.card a{color:#2340FF;font-weight:700}
 /* mini river progress */
 .mini{position:fixed;right:clamp(10px,2vw,24px);top:clamp(16px,6vh,64px);z-index:5;display:flex;flex-direction:column;align-items:center;gap:0;padding:4px 10px;background:var(--paper);border:3px solid var(--ink);box-shadow:4px 4px 0 var(--ink)}
 .mini::before{content:"";position:absolute;top:52px;bottom:16px;left:50%;width:6px;margin-left:-3px;background:#2340FF;border:2px solid var(--ink)}
@@ -48,7 +50,9 @@ body[data-river="eden"] .mini button.done,body[data-river="eden"] .mini button[a
 body[data-river="eden"] .step:not(:first-child) .card{visibility:hidden}
 .edenhold .card{width:min(440px,80%);box-shadow:8px 8px 0 var(--ink)}
 .step.replay{min-height:360svh;align-items:flex-start}
-.step.replay .card{position:sticky;top:max(16px,calc(50svh - 190px))}
+.step.replay .card{position:sticky;top:max(16px,calc(50svh - 270px))}
+.step.phone-only{display:none}
+@media (max-width:640px){.step.phone-only{display:flex}}
 .step .card{transition:opacity .25s ease}
 @media (max-width:640px){.step:not(.is-active) .card{opacity:0}}
 @media (prefers-reduced-motion: reduce){.step .card{transition:none}}
@@ -102,20 +106,31 @@ body[data-river="eden"] .step:not(:first-child) .card{visibility:hidden}
   </section>
   <section class="step" data-frame="2" data-water="low">
    <div class="card"><div class="eyebrow">Chapter 2 · Flood</div><h2>Sumas Prairie, November 2021</h2>
-   <p>Placeholder text: farmland on the old bed of Semá:th X̱ó:tsa (Sumas Lake), before the storms arrive.</p>
+   <p>Sumas Prairie is farmland on the bed of a lake. Semá:th X̱ó:tsa (Sumas Lake) was at the heart of Semá:th territory until it was drained between 1920 and 1924 to make farmland. In the Semá:th First Nation's words, the draining "brought profound and lasting harm to the Stó:lō people."</p>
+   <p><a href="https://sumasfirstnation.com/about/our-territory/">Read about Semá:th territory on the Sumas First Nation's website</a></p>
    <div class="datum">1 Nov 2021 · Sumas River 1.96 m</div></div>
   </section>
+  <section class="step phone-only" data-frame="2" data-water="low">
+   <div class="card"><div class="eyebrow">Chapter 2 · Flood</div><h2>Three storms in a month</h2>
+   <p>On 14 November, an atmospheric river brought two days of heavy rain. The Nooksack River overflowed in Washington, and the water ran north across the border into Sumas Prairie. More than 3,300 people from 1,100 properties had to leave, and many farm animals were lost. Two more storms followed before the prairie could drain. Keep scrolling to watch each day.</p></div>
+  </section>
   <section class="step replay" data-frame="2" data-replay="1">
-   <div class="card replaycard"><div class="eyebrow">Chapter 2 · Flood</div><h2>Day by day</h2>
-   <p class="ph">Placeholder text: keep scrolling to play November and December 2021, one day at a time.</p>
+   <div class="card replaycard"><div class="eyebrow">Chapter 2 · Flood</div><h2>Three storms in a month</h2>
+   <p class="ph">On 14 November, an atmospheric river brought two days of heavy rain. The Nooksack River overflowed in Washington, and the water ran north across the border into Sumas Prairie. More than 3,300 people from 1,100 properties had to leave, and many farm animals were lost. Two more storms followed before the prairie could drain. Keep scrolling to watch each day.</p>
    <div class="readout" id="flood-readout" aria-hidden="true"></div>
    <svg id="flood-chart" viewBox="0 0 320 130" width="100%" height="130" role="img" aria-labelledby="flood-chart-desc"><desc id="flood-chart-desc"></desc></svg>
-   <p class="credit">Sumas River near Huntingdon: Water Survey of Canada (HYDAT), Open Government Licence - Canada. Nooksack River at North Cedarville: USGS, public domain. Daily means.</p></div>
+   <p class="credit">Sumas River near Huntingdon: Water Survey of Canada (HYDAT), Open Government Licence - Canada. Nooksack River at North Cedarville: USGS, public domain. Daily means. Evacuations: <a href="https://www2.gov.bc.ca/assets/gov/public-safety-and-emergency-services/emergency-preparedness-response-recovery/embc/reports/abbotsford-community_summary.pdf">City of Abbotsford and Province of BC, 2022</a>.</p></div>
+  </section>
+  <section class="step" data-frame="2" data-water="after">
+   <div class="card"><div class="eyebrow">Chapter 2 · Flood</div><h2>After the water</h2>
+   <p class="health"><b>For people:</b> a flood doesn't end when the water goes down. BC's climate and health assessment found that the emotional impact of recent floods and wildfires lasts long after the immediate danger has passed.</p>
+   <p class="climate"><b>For the climate:</b> climate scientists found that human-caused climate change made atmospheric rivers like this one at least 60% more likely. And it happened again: in December 2025, the Nooksack overtopped its banks and water crossed into Sumas Prairie.</p>
+   <p class="credit">Sources: <a href="https://nrs.objectstore.gov.bc.ca/xedyjn/Projects/2023/ClimateReadyBC/page_health_r2r/R2R-Chapter-9.pdf">Climate Change and Health in BC: From Risk to Resilience, Chapter 9</a>; <a href="https://dspace.library.uvic.ca/items/9e87c7a6-ba88-4a3e-b7d2-e8a3d04da3ac">Gillett et al. (2022), Human influence on the 2021 British Columbia floods</a>; <a href="https://www.abbotsford.ca/node/9002">City of Abbotsford, Flood Response and Recovery</a>.</p></div>
   </section>
   <section class="step" data-frame="2" data-water="spring">
    <div class="card"><div class="eyebrow">Chapter 2 · Flood</div><h2>And then, tulips</h2>
-   <p class="health">Placeholder for the health line: what the flood meant for people.</p>
-   <p>Placeholder text: in spring 2023 the tulip festival came back to a farm that had been flooded.</p></div>
+   <p>Recovery takes years. Lakeland Flowers, on Sumas Prairie, was flooded in 2021. In April 2023, the Abbotsford Tulip Festival came back, its first since 2019.</p>
+   <p class="credit">Source: <a href="https://www.countrylifeinbc.com/abbotsford-tulip-festival-returns/">Country Life in BC, 19 April 2023</a>.</p></div>
   </section>
  </div>
 </div>
@@ -140,7 +155,7 @@ body[data-river="eden"] .step:not(:first-child) .card{visibility:hidden}
  }
  const water=document.getElementById("water"), rain=document.getElementById("rain"),
        clouds=document.getElementById("clouds"), sun=document.getElementById("sun"), tulips=document.getElementById("tulips");
- const WATER={low:"795px",peak:"645px",spring:"795px"};
+ const WATER={low:"795px",peak:"645px",after:"795px",spring:"795px"};
  const DAYS=[{"d": "2021-11-01", "lvl": 1.96, "nk": 110.2}, {"d": "2021-11-02", "lvl": 1.8, "nk": 105.1}, {"d": "2021-11-03", "lvl": 1.94, "nk": 133.7}, {"d": "2021-11-04", "lvl": 2.33, "nk": 232.2}, {"d": "2021-11-05", "lvl": 2.6, "nk": 276.1}, {"d": "2021-11-06", "lvl": 2.55, "nk": 178.1}, {"d": "2021-11-07", "lvl": 2.41, "nk": 147.2}, {"d": "2021-11-08", "lvl": 2.24, "nk": 128.8}, {"d": "2021-11-09", "lvl": 2.08, "nk": 116.7}, {"d": "2021-11-10", "lvl": 1.97, "nk": 115}, {"d": "2021-11-11", "lvl": 1.9, "nk": 107.9}, {"d": "2021-11-12", "lvl": 2.03, "nk": 337}, {"d": "2021-11-13", "lvl": 2.33, "nk": 261.6}, {"d": "2021-11-14", "lvl": 2.89, "nk": 719.2}, {"d": "2021-11-15", "lvl": 4.04, "nk": 1718.8}, {"d": "2021-11-16", "lvl": 4.11, "nk": 623}, {"d": "2021-11-17", "lvl": 3.98, "nk": 317.1}, {"d": "2021-11-18", "lvl": 3.86, "nk": 239}, {"d": "2021-11-19", "lvl": 3.58, "nk": 204.7}, {"d": "2021-11-20", "lvl": 3.18, "nk": 172.7}, {"d": "2021-11-21", "lvl": 2.87, "nk": 152.1}, {"d": "2021-11-22", "lvl": 2.64, "nk": 137.3}, {"d": "2021-11-23", "lvl": 2.53, "nk": 141.3}, {"d": "2021-11-24", "lvl": 2.52, "nk": 130.3}, {"d": "2021-11-25", "lvl": 2.59, "nk": 194.8}, {"d": "2021-11-26", "lvl": 3.44, "nk": 314.3}, {"d": "2021-11-27", "lvl": 3.56, "nk": 241.5}, {"d": "2021-11-28", "lvl": 3.81, "nk": 699.4}, {"d": "2021-11-29", "lvl": 3.97, "nk": 540.9}, {"d": "2021-11-30", "lvl": 3.98, "nk": 399.3}, {"d": "2021-12-01", "lvl": 3.94, "nk": 458.7}, {"d": "2021-12-02", "lvl": 3.88, "nk": 342.6}, {"d": "2021-12-03", "lvl": 3.61, "nk": 223.7}, {"d": "2021-12-04", "lvl": 3.25, "nk": 180.9}, {"d": "2021-12-05", "lvl": 3.07, "nk": 152.1}, {"d": "2021-12-06", "lvl": 2.88, "nk": 135.9}, {"d": "2021-12-07", "lvl": 2.84, "nk": 126}, {"d": "2021-12-08", "lvl": 2.81, "nk": 132.5}, {"d": "2021-12-09", "lvl": 2.72, "nk": 122.3}, {"d": "2021-12-10", "lvl": 2.59, "nk": 110.2}, {"d": "2021-12-11", "lvl": 2.54, "nk": 156}, {"d": "2021-12-12", "lvl": 2.67, "nk": 144.4}, {"d": "2021-12-13", "lvl": 2.61, "nk": 118.9}, {"d": "2021-12-14", "lvl": 2.46, "nk": 104.5}, {"d": "2021-12-15", "lvl": 2.33, "nk": 93.7}];
  const STOPS=[[1.8,795],[2.6,772],[3.0,722],[3.4,690],[4.11,645]];
  function yFor(l){ if(l==null) return null; if(l<=STOPS[0][0]) return STOPS[0][1];
@@ -183,7 +198,7 @@ body[data-river="eden"] .step:not(:first-child) .card{visibility:hidden}
   if(s.dataset.replay){ curDay=-1; setDay(Math.round(replayProgress()*(DAYS.length-1))); }
   const w=s.dataset.water;
   if(w){ water.style.transform=`translateY(${WATER[w]})`;
-    const spring=w==="spring"; rain.style.opacity=spring?0:(w==="peak"?1:0.3);
+    const spring=w==="spring"; rain.style.opacity=spring?0:(w==="peak"?1:(w==="after"?0.15:0.3));
     clouds.style.opacity=spring?0:1; sun.style.opacity=spring?1:0; tulips.style.opacity=spring?1:0; }
   const chap = frame===0?0:(frame===1?1:2);
   dots.forEach((d,k)=>{ d.classList.toggle("done",k<chap); if(k===chap) d.setAttribute("aria-current","step"); else d.removeAttribute("aria-current"); });
